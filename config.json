@@ -10,8 +10,11 @@
 		]
 	},
 	"author": "Mobbing",
-	"theme-files": [
-		"index.html",
-		"/assets/"
-	]
+	"theme": {
+		"name": "ist",
+		"files": [
+			"index.html",
+			"/assets/"
+		]
+	}
 }
