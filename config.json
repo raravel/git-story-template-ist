@@ -5,7 +5,9 @@
 	],
 	"body": {
 		"start": [],
-		"end": []
+		"end": [
+			"<script type=\"text/javascript\" src=\"/assets/js/redirect.js\"></script>"
+		]
 	},
 	"author": "Mobbing",
 	"theme-files": [
