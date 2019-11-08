@@ -14,6 +14,7 @@
 		"name": "ist",
 		"files": [
 			"index.html",
+			"/assets/js/script.js",
 			"/assets/js/materialize.js",
 			"/assets/js/materialize-custom.js",
 			"/assets/css/materialize.css",
