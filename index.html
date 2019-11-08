@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<script type="text/javascript" src="/assets/js/materialize.js"></script>
+		<link rel="stylesheet" href="/assets/css/materialize.css">
+		<link rel="stylesheet" href="/assets/css/materialize-custom.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body class="grey lighten-4">
+		<!-- S:Header -->
+		<header class="navbar-fixed custom">
+			<nav class="grey lighten-4">
+				<div class="nav-wrapper valign-wrapper" style="width:100%">
+					<a href="/" class="blue-grey-text lighten-1 valign-wrapper">
+						<i class="material-icons">home</i>&nbsp;
+						<span>Git-Story</span>
+					</a>
+					<ul class="right" style="margin-left: auto">
+						<li>
+							<a id="open-menu" href="#" class="blue-grey-text lighten-1 valign-wrapper show-on-mall hide-on-med-and-up">
+								<i class="material-icons">menu</i>&nbsp;
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<!-- E:Header -->
+
+		<!-- S:Main -->
+		<main>
+			<div class="container custom">
+				<div class="row">
+					<div class="hide-on-med-and-down col l1 xl2"></div>
+					<!-- S:Contents -->
+					<div class="col s12 m8 l7 xl6 white">
+						<div id="list-app"></div>
+						<div id="post-app" class="row">
+							<div class="col s12">
+								<!-- S:Title -->
+								<div id="content-header" class="border-b border-gray-300">
+									<h3 id="posting-title" class="blue-grey-text text-darken-3 p-title">
+										Posting Title
+									</h3>
+									<h6 id="posting-author" class="author">
+										<span id="posting-name" class="p-name">Mobbing</span> 
+										<span id="posting-date" class="p-date">2019. 09. 01 5:41:30</span>
+									</h6>
+								</div>
+								<!-- E:Title -->
+
+								<!-- S:Content -->
+								<iframe id="real-content" class="iframe-content" scrolling="no"></iframe>
+								<!-- E:Content -->
+
+							</div>
+						</div>
+					</div>
+					<!-- E:Contents -->
+					<!-- S:Side Menu -->
+					<div class="hide-on-small-only show-on-medium col m4 l3 xl2" style="border-left: 1px solid #eaeaea;">
+						<div id="category-nav" class="row" style="border-bottom: 1px solid #eaeaea;">
+							<a href="/" class="valign-wrapper">
+								<i class="material-icons">folder</i>&nbsp;
+								<h5 style="margin: 0"> CATEGORIES </h5>
+							</a>
+						</div>
+					</div>
+					<!-- E:Side Menu -->
+					<div class="hide-on-med-and-down col l1 xl2"></div>
+				</div>
+			</div>
+			<!-- S:Mobile Side Menu -->
+			<ul id="mobile-sidebar" class="sidenav right-aligned" style="padding: 1rem;">
+				<!-- S:Category -->
+				<li>
+					<div id="mobile-category-nav" class="row" style="border-bottom: 1px solid #eaeaea;">
+						<a href="/" class="valign-wrapper">
+							<i class="material-icons">folder</i>&nbsp;
+							<h5 style="margin: 0"> CATEGORIES </h5>
+						</a>
+					</div>
+				</li>
+				<!-- E:Category -->
+				<!-- S:Social -->
+				<li>
+					<div id="mobile-category-nav" class="row" style="border-bottom: 1px solid #eaeaea;">
+						<a href="/" class="valign-wrapper">
+							<i class="material-icons">reply</i>&nbsp;
+							<h5 style="margin: 0"> SOCIAL </h5>
+						</a>
+						<ul class="cus-list" style="padding-left: 5px">
+							<li>
+								<a href="#" class="waves-effect waves-light btn black white-text" style="padding:0">
+									GITHUB
+								</a>
+							</li>
+							<li>
+								<a href="https://materializecss.com/" class="waves-effect waves-light btn red lighten-2 white-text" style="padding:0">
+									Materialize	
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<!-- E:Social -->
+			</ul>
+			<!-- E:Mobile Side Menu -->
+
+		</main>
+
+		<!-- S:Footer -->
+		<footer class="page-footer grey darken-1">
+			<div class="footer-copyright">
+				<div class="container">
+					© 2019 Copyright GIT SOTRY
+				</div>
+			</div>
+		</footer>
+		<!-- E:Footer -->
+
+		<!-- E:Main -->
+		<script src="/assets/js/materialize-custom.js" type="text/javascript"></script>
+		<script src="/assets/js/script.js" type="text/javascript"></script>
+	</body>
+</html>
