@@ -224,9 +224,8 @@ getConfig((config) => {
 	window.config = config;
 
 	getPosts((posts) => {
-		let category = createCategory(posts);	
-		document.querySelector('#category-nav').appendChild(category);
-		document.querySelector('#mobile-category-nav').appendChild(category);
+		document.querySelector('#category-nav').appendChild(createCategory(posts));
+		document.querySelector('#mobile-category-nav').appendChild(createCategory(posts));
 
 		let url = getParameterByName('v');
 		if ( url ) {
