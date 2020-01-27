@@ -13,12 +13,12 @@
 	"theme": {
 		"name": "ist",
 		"files": [
-			{ src: "index.html" },
-			{ src: "/assets/js/script.js" },
-			{ src: "/assets/js/materialize.js" },
-			{ src: "/assets/js/materialize-custom.js" },
-			{ src: "/assets/css/materialize.css" },
-			{ src: "/assets/css/materialize-custom.css" }
+			{ "src": "index.html" },
+			{ "src": "/assets/js/script.js" },
+			{ "src": "/assets/js/materialize.js" },
+			{ "src": "/assets/js/materialize-custom.js" },
+			{ "src": "/assets/css/materialize.css" },
+			{ "src": "/assets/css/materialize-custom.css" }
 		]
 	}
 }
